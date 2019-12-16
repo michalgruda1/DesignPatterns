@@ -49,7 +49,23 @@ namespace DesignPatterns
 
 		static void Main(string[] args)
 		{
-			
+			var state = State.OffHook;
+
+			while (true)
+			{
+				Console.WriteLine("We are now in {0}", state);
+				Console.WriteLine("Select trigger:");
+
+				for (int i = 0; i < rules[state].Count; i++)
+				{
+					var (n, _) = rules[state][i];
+					Console.WriteLine("{0}: {1}", i, n);
+				}
+
+				var input = int.Parse(Console.ReadLine());
+				var (_, s) = rules[state][input];
+				state = s;
+			}
 		}
 	}
 }
