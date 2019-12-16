@@ -21,7 +21,7 @@ namespace DesignPatterns
 		LeftMessage
 	}
 
-	class StateDesignPattern
+	class StateAsDictionary
 	{
 		private static Dictionary<State, List<(Trigger, State)>> rules =
 			new Dictionary<State, List<(Trigger, State)>>
