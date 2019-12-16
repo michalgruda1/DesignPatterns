@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State - as Dictionary", "St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State - as Switch", "..\DesignPattern1\State - as Switch.csproj", "{4BF6FA04-1866-4FE3-837F-AA414E5821DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State with Stateless", "..\State with Stateless\State with Stateless.csproj", "{60942B2E-6102-46B1-B509-6271DF13DAAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4BF6FA04-1866-4FE3-837F-AA414E5821DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BF6FA04-1866-4FE3-837F-AA414E5821DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BF6FA04-1866-4FE3-837F-AA414E5821DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60942B2E-6102-46B1-B509-6271DF13DAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60942B2E-6102-46B1-B509-6271DF13DAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60942B2E-6102-46B1-B509-6271DF13DAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60942B2E-6102-46B1-B509-6271DF13DAAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
