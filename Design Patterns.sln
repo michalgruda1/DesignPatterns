@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State with Stateless", "..\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State - Exercise - As Switch", "..\ConsoleApp1\State - Exercise - As Switch.csproj", "{7EE2450E-F321-4C68-9C53-6ED664DC2F37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator with MediatR", "..\Mediator with MediatR\Mediator with MediatR.csproj", "{20EAC212-15A9-400B-81BD-30CC4A5C43FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator - with MediatR", "..\Mediator with MediatR\Mediator - with MediatR.csproj", "{20EAC212-15A9-400B-81BD-30CC4A5C43FA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediator - Exercise with MediatR", "..\Mediator - Exercise with MediatR\Mediator - Exercise with MediatR.csproj", "{BEF2D944-E009-4380-BA1F-CFC42E8E6C9E}"
 EndProject
